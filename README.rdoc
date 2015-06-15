@@ -9,6 +9,9 @@ gem 'twitter', '~> 5.14.0'
 # Pour facebook :
 
 gem 'oauth2', '~> 1.0.0'
+
 gem 'omniauth', '~> 1.2.2'
+
 gem 'omniauth-oauth2', '~> 1.3.0'
+
 gem 'omniauth-facebook', '~> 2.0.1'
