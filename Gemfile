@@ -23,6 +23,7 @@ gem 'oauth2', '~> 1.0.0'
 gem 'omniauth', '~> 1.2.2'
 gem 'omniauth-oauth2', '~> 1.3.0'
 gem 'omniauth-facebook', '~> 2.0.1'
+gem 'koala', '~> 1.10.0rc'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

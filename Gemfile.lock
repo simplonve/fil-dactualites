@@ -74,6 +74,10 @@ GEM
       thor (>= 0.14, < 2.0)
     json (1.8.3)
     jwt (1.5.0)
+    koala (1.10.1)
+      addressable
+      faraday
+      multi_json
     loofah (2.0.2)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
@@ -186,6 +190,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
+  koala (~> 1.10.0rc)
   oauth2 (~> 1.0.0)
   omniauth (~> 1.2.2)
   omniauth-facebook (~> 2.0.1)
@@ -199,3 +204,6 @@ DEPENDENCIES
   twitter (~> 5.14.0)
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
+
+BUNDLED WITH
+   1.10.3
