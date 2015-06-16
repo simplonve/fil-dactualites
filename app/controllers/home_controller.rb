@@ -1,12 +1,12 @@
 class HomeController < ApplicationController
-  # include MyTwitterModule
 
-  def index
-    @user = SimplonVE
-    @tweets = @user.user_timeline(2)
-  end
+	def index
+	    @user = @SimplonVE
+	    @tweets = @user
+	end
 
-  def show
-  end
+ 	def show
+	
+	end
 
 end
